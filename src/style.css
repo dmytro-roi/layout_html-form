@@ -1,1 +1,15 @@
-/* styles go here */
+
+.form-field {
+  display: block;
+}
+
+.personal-information,
+.registration,
+.fact-about-you,
+.addition-information {
+  margin-bottom: 20px;
+}
+
+.form-field:not(:last-of-type) {
+  padding-bottom: 10px;
+}
